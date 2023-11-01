@@ -29,14 +29,16 @@ Div : /
 """)
 
 
-
 while True:
 
     firstNumber = input("\nPlease enter ur first number: ")
     int_firstNumber = int(firstNumber)
+    
     secondNumber = input("Please enter ur second number: ")
     int_secondNumber = int(secondNumber)
+    
     print(menu)
+    
     process = input("Please enter ur process: ")
 
     if process == "+":
